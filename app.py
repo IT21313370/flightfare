@@ -12,7 +12,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open("rf_reg.pkl", "rb"))
+# model = pickle.load(open("rf_reg.pkl", "rb"))
 
 
 
